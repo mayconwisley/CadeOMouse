@@ -10,7 +10,7 @@ Ideal para automações, scripts, ou como ferramenta de suporte técnico para te
 
 Você pode baixar o executável compilado clicando no link abaixo:
 
-👉 [Download do AbrirArquivo.exe](https://github.com/mayconwisley/AbrirArquivo/raw/main/Download/AbrirArquivo.exe)
+👉 [Download do AbrirArquivo.exe](https://github.com/mayconwisley/AbrirArquivo/blob/master/Download/AbrirArquivo.exe)
 
 > Após o download, você pode executá-lo via terminal:
 >
