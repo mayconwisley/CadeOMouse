@@ -37,16 +37,13 @@ Você pode baixar o executável compilado clicando no link abaixo:
 
 ## 🛠️ Como compilar
 
-1. Clone o repositório:
+1. Clone o repositório e compile:
    ```bash
    git clone https://github.com/mayconwisley/AbrirArquivo.git
    cd AbrirArquivo
    dotnet build -c Release
    ```
-
-## 🛠️ O executável estará disponível em
-
-1. O executável:
+2. O executável:
    ```bash
    ./bin/Release/net6.0/AbrirArquivo.exe
    ```
@@ -74,3 +71,32 @@ Você pode baixar o executável compilado clicando no link abaixo:
    AbrirArquivo.exe "C:\Notas\lembrete.txt"
    ```
 
+## ❓ Não quer usar o .exe? Existe uma alternativa!
+1.Sim, via arquivo .bat, segue abaixo. Copiar e salvar em um arquivo com a extensão .bat
+   ```bat
+   @echo off
+   rem ── 1) Validação de quantidade de argumentos ───────────────────────────────
+   if "%~1"=="" (
+      echo Nenhum parâmetro de inicialização informado.
+      pause
+      goto :eof
+   )
+
+   if not "%~2"=="" (
+      echo Informar apenas um parâmetro de inicialização.
+      pause
+      goto :eof
+   )
+
+   rem ── 2) Verifica se o arquivo existe ─────────────────────────────────────────
+   set "arquivo=%~1"
+   if not exist "%arquivo%" (
+      echo Arquivo não encontrado.
+      pause
+      goto :eof
+   )
+
+   rem ── 3) Abre o arquivo no app padrão ─────────────────────────────────────────
+   start "" "%arquivo%"
+   exit /b 0
+```
