@@ -6,6 +6,19 @@ Ideal para automações, scripts, ou como ferramenta de suporte técnico para te
 
 ---
 
+## 📦 Download
+
+Você pode baixar o executável compilado clicando no link abaixo:
+
+👉 [Download do AbrirArquivo.exe](https://github.com/mayconwisley/AbrirArquivo/raw/main/Download/AbrirArquivo.exe)
+
+> Após o download, você pode executá-lo via terminal:
+>
+> ```bash
+> AbrirArquivo.exe "C:\Caminho\Para\Seu\Arquivo.pdf"
+> ```
+
+---
 ## ✅ Funcionalidades
 
 - Abre arquivos com o aplicativo padrão do Windows (como se fosse um duplo clique no Explorer).
