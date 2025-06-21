@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36203.30
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbrirArquivo", "AbrirArquivo\AbrirArquivo.csproj", "{52E06B7C-2B04-4AD7-92F6-1A3FE0DB0C73}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadeOMouse", "AbrirArquivo\CadeOMouse.csproj", "{52E06B7C-2B04-4AD7-92F6-1A3FE0DB0C73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
