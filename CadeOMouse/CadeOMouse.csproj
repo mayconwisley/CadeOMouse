@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{52E06B7C-2B04-4AD7-92F6-1A3FE0DB0C73}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AbrirArquivo</RootNamespace>
-    <AssemblyName>AbrirArquivo</AssemblyName>
+    <RootNamespace>CadeOMouse</RootNamespace>
+    <AssemblyName>CadeOMouse</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

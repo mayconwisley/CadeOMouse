@@ -1,6 +1,6 @@
-# Abrir Arquivo
+# Cade O Mouse
 
-**AbrirArquivo** é um utilitário simples de linha de comando desenvolvido em C# (.NET) que permite abrir qualquer arquivo com o aplicativo padrão associado no sistema operacional Windows.
+**CadeOMouse** é um utilitário simples de linha de comando desenvolvido em C# (.NET) que permite abrir qualquer arquivo com o aplicativo padrão associado no sistema operacional Windows.
 
 Ideal para automações, scripts, ou como ferramenta de suporte técnico para testar rapidamente a abertura de arquivos via terminal.
 
@@ -10,12 +10,12 @@ Ideal para automações, scripts, ou como ferramenta de suporte técnico para te
 
 Você pode baixar o executável compilado clicando no link abaixo:
 
-👉 [Download do AbrirArquivo.exe](https://github.com/mayconwisley/AbrirArquivo/raw/refs/heads/master/Download/AbrirArquivo.exe)
+👉 [Download do CadeOMouse.exe](https://github.com/mayconwisley/CadeOMouse/raw/refs/heads/master/Download/CadeOMouse.exe)
 
 > Após o download, você pode executá-lo via terminal:
 >
 > ```bash
-> AbrirArquivo.exe "C:\Caminho\Para\Seu\Arquivo.pdf"
+> CadeOMouse.exe "C:\Caminho\Para\Seu\Arquivo.pdf"
 > ```
 
 ---
@@ -39,20 +39,20 @@ Você pode baixar o executável compilado clicando no link abaixo:
 
 1. Clone o repositório e compile:
    ```bash
-   git clone https://github.com/mayconwisley/AbrirArquivo.git
-   cd AbrirArquivo
+   git clone https://github.com/mayconwisley/CadeOMouse.git
+   cd CadeOMouse
    dotnet build -c Release
    ```
 2. O executável:
    ```bash
-   ./bin/Release/net6.0/AbrirArquivo.exe
+   ./bin/Release/net6.0/CadeOMouse.exe
    ```
 
 ## ▶️ Como usar
 
 1. Sintaxe:
    ```bash
-   AbrirArquivo.exe "caminho\para\o\arquivo.extensao"
+   CadeOMouse.exe "caminho\para\o\arquivo.extensao"
    ```
    Use aspas se o caminho contiver espaços.
 
@@ -60,15 +60,15 @@ Você pode baixar o executável compilado clicando no link abaixo:
 
 1.Abrir um PDF:
    ```bash
-   AbrirArquivo.exe "C:\Arquivos\RelatorioMensal.pdf"
+   CadeOMouse.exe "C:\Arquivos\RelatorioMensal.pdf"
    ```
 1.Abrir uma imagem:
    ```bash
-   AbrirArquivo.exe "C:\Imagens\foto.jpg"
+   CadeOMouse.exe "C:\Imagens\foto.jpg"
    ```
 1.Abrir um arquivo de texto:
    ```bash
-   AbrirArquivo.exe "C:\Notas\lembrete.txt"
+   CadeOMouse.exe "C:\Notas\lembrete.txt"
    ```
 
 ## ❓ Não quer usar o .exe? Existe uma alternativa!
